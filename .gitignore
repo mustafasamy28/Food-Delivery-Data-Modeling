@@ -1,0 +1,58 @@
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Cache files
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+
+# Environment files
+.env
+venv/
+env/
+.venv/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+EO
+cat > .ignorefile << 'EOF'
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Cache files
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+
+# Environment files
+.env
+venv/
+env/
+.venv/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
